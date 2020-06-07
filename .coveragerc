@@ -1,0 +1,8 @@
+[run]
+omit =
+    app/__main__.py
+    app/__init__.py
+    app/**/protocols/*
+    app/infra/database/alembic/*
+    app/infra/database/seeds.py
+    app/infra/database/sqlalchemy.py

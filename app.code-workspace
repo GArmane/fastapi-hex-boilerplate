@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 4,
+		"editor.rulers": [88, 120],
+		"files.exclude": {
+			".mypy_cache/": true,
+			".pytest_cache/": true,
+			"*.egg-info": true,
+		},
+		"python.poetryPath": "poetry",
+		"python.venvPath": ".venv",
+		"python.pythonPath": ".venv/bin/python3",
+		"python.analysis.openFilesOnly": false,
+		"python.testing.pytestEnabled": true,
+		"python.testing.pytestPath": ".venv/bin/pytest",
+		"python.formatting.provider": "black",
+		"python.linting.enabled": true,
+		"python.linting.lintOnSave": true,
+		"python.linting.pylintEnabled": false,
+		"python.linting.flake8Enabled": true,
+		"python.linting.flake8Args": [
+			"--config=.flake8",
+		],
+		"python.linting.mypyEnabled": true,
+		"python.linting.mypyArgs": [
+			"--config-file=mypy.ini",
+		],
+	}
+}
